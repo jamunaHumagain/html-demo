@@ -4,18 +4,58 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Trial Html</title>
+	<style type="text/css">
+		.par{
+			font-size: 50px;
+			 background-color: hsl(0,100%,50%);
+			 color: white;
+			 margin: 20px 30px;
+			 padding: 30px 40px;
+		}
+		.id{
+			font-size: 15px;
+			 background-color: hsl(0,75%,45%);
+			 color: green;
+			 width: 800px;
+		}
+		.nav{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			background-color: #333333;
+			overflow: hidden;
+
+
+		}
+		li{
+			float: left;
+
+		}
+		li a{
+			padding: 35px;
+			text-decoration: none;
+			color: white;
+			display: block;
+			text-align: center;
+
+		}
+		li a:hover{
+			background-color: royalblue;
+
+		}
+	</style>
 </head>
 <body style="background-color:black;color:rgb(150, 50, 150);" >
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
+<h1 class="par">Heading 1</h1>
+<h2 class="id">Heading 2</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 <a href="go to our tutuorial">GO TO OUR TUTORIAL</a>
 
-<P><B><I> Lorem ipsum dolor sit amet,<small> consectetur adipisicing elit,</small> sed do eiusmod
+<P class="id"><B><I> Lorem ipsum dolor sit amet,<small> consectetur adipisicing elit,</small> sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 <U>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</U>
 consequat.<BR> Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -103,8 +143,32 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<I><B>
 		<td colspan="2">That's All</td>
 	</center>
 	</tr>
-		
-	
-	
+	</table>
+
+<hr>
+<p  class="par" style="">a<sup>2</sup>-b<sup>2</sup>=(a-b)(a+b)</p>
+<!-- <h2>UNORDERED LIST</h2>
+<ul type="disc">
+	<li>Coffee</li>
+	<li>tea</li>
+	<li>water</li>
+</ul>		
+	<h2>ORDERED LIST</h2> -->
+<!-- <ol type="a">
+	<li>Coffee</li>
+	<ul type="square">
+		<li>white coffee</li>
+		<li>black coffee</li>
+	</ul>
+	<li>tea</li>
+	<li>water</li>
+</ol> -->
+<h2>UNORDERED LIST WITH A</h2>
+<ul class="nav">
+	<li><a href="index.HTML">HOME</a></li>
+	<li><a href="about us.HTML">ABOUT US</a></li>
+	<li><a href="home.html">CONTACT</a></li>
+     <li><a href="services.html">SERVICES</a></li>
+</ul>
 </body>
 </html>
